@@ -1,0 +1,43 @@
+ul#menu
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:36px;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:lowercase;
+	background:transparent url("../images/bg.jpg") repeat-x top left;
+	font-family:"Trebuchet MS",Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+}
+
+ul#menu li
+{
+	display:block;
+	float:left;
+	margin:0;
+	pading:0;
+}
+	
+ul#menu li a
+{
+	display:block;
+	float:left;
+	color:#999999;
+	text-decoration:none;
+	font-weight:bold;
+	padding:12px 20px 0 20px;
+	height:24px;
+
+}
+	
+ul#menu li a:hover
+{	
+	color:#FFFFFF;
+	background:transparent url("../images/over.jpg") no-repeat top right;	
+}
