@@ -4,14 +4,28 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
 <html>
 <head>
+   <style type="text/css">
+/* <![CDATA[ */
+html,body{
+	margin-top:0px;
+	top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	background-color:#000;
+	font-family:"Times New Roman", Times, serif;
+	
+	}
+	</style>
 	<title>BUGMINE HOME!...</title>
-
+ <LINK REL="SHORTCUT ICON"  href="http://localhost:8080/bugmine/images/favicon.ico">
+  
 <link rel="stylesheet" href="css/menu_style.css" type="text/css" />
 </head>
-<body bgcolor="darkgray">
+<body >
 <jsp:include page="header.html"></jsp:include>
-<div  style="background-color:#666666;width:100%;height:auto; ">
-<div  style="background-color:#666666;width:100%;height:auto; float:left; " align="left">
+
+<div  style="width:100%;height:auto; float:left; " align="left">
 <ul  id="menu">
 <li><a href="#" >Welcome:<c:out value="${loginForm.userName}"></c:out></a></li>
 <c:if test="${loginForm.usrType=='admin'}">
@@ -27,11 +41,9 @@
 </ul>
 
 </div>
-<div style="float:left">
-<iframe  align="right"  frameborder="0"  allowtransparency="true" src="views/welcome.jsp" name="mainframe" width="1050px" height="420px"></iframe>
+<div style=" width:100%;height:400px;background-color:#666666">
+<iframe  align="right"  frameborder="0"  allowtransparency="true" src="views/welcome.jsp" name="mainframe" width="100%" height="100%"></iframe>
 </div>
-</div>
-<div style="clear:both"></div>
-<jsp:include page="footer.html"></jsp:include>
+<jsp:include page="footer2.html"></jsp:include>
 </body>
 </html>

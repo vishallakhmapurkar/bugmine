@@ -28,7 +28,7 @@ td
 </style>
 </head>
 <body>
-<jsp:include page="header.html"></jsp:include>
+
 <div  style="background-color:#666666;width:100%;height:63%; " align="center">
 
 <form:form action="registration.do"  commandName="registrationForm" method="POSt">
@@ -65,6 +65,5 @@ td
 </table></form:form>
 </div>
 <div style="clear:both"></div>
-<jsp:include page="footer.html"></jsp:include>
 </body>
 </html>

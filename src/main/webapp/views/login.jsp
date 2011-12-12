@@ -5,6 +5,8 @@
 <html>
 <head>
 	<title>BUGMINE  LOGIN!...</title>
+    <LINK REL="SHORTCUT ICON"  href="http://localhost:8080/bugmine/images/favicon.ico">
+    <link rel="stylesheet" href="css/ani.css" >
     <style type="text/css">
 /* <![CDATA[ */
 html,body{

@@ -9,7 +9,7 @@ ul#menu
 	height:36px;
 	font-size:12px;
 	font-weight:bold;
-	text-transform:lowercase;
+	
 	background:transparent url("../images/bg.jpg") repeat-x top left;
 	font-family:"Trebuchet MS",Helvetica,Arial,Verdana,sans-serif;
 	border-bottom:1px solid #000000;
