@@ -7,6 +7,10 @@
 	<title>BUGMINE  LOGIN!...</title>
     <LINK REL="SHORTCUT ICON"  href="http://localhost:8080/bugmine/images/favicon.ico">
     <link rel="stylesheet" href="css/ani.css" >
+    <script src="js/jquery-1.2.6.min.js" type="text/javascript"></script>
+	<script src="js/popup.js" type="text/javascript"></script>
+
+ 
     <style type="text/css">
 /* <![CDATA[ */
 html,body{
@@ -17,6 +21,7 @@ html,body{
 	margin-right:0px;
 	background-color:#000;
 	}
+	
 table, td
 {
     border-color: #600;
@@ -62,7 +67,7 @@ td
     </fieldset>
     <fieldset id="actions">
         <input id="submit" value="Log in" type="submit">
-        <a href="">Forgot your password?</a><a href="">Register</a>
+        <a href="">Forgot your password?</a><a href="registration.do" >Register</a>
     </fieldset>
 </form:form>
 
@@ -70,7 +75,10 @@ td
 </div>
 
 </div>
+
+	
 <div style="clear:both"></div>
 <jsp:include page="footer.html"></jsp:include>
+
 </body>
 </html>

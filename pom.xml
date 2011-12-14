@@ -49,6 +49,7 @@
 		</dependency>		
 		
 		<!-- Spring -->
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
